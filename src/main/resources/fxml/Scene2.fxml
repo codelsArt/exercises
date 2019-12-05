@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="390.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbw.ListView.FXMLController2">
+   <children>
+      <ListView fx:id="leftList" layoutX="1.0" prefHeight="344.0" prefWidth="222.0" />
+      <Button layoutX="258.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleButtonAction" text="add" />
+      <ListView fx:id="rightList" layoutX="332.0" prefHeight="344.0" prefWidth="204.0" />
+      <Button fx:id="btLeftToRight" layoutX="264.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleLeftToRight" text="&gt;" />
+      <Button fx:id="btRightToLeft" layoutX="264.0" layoutY="183.0" mnemonicParsing="false" onAction="#handleRightToLeft" text="&lt;" />
+   </children>
+</AnchorPane>
